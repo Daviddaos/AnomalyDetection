@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnomalyDetection", "AnomalyDetection\AnomalyDetection.csproj", "{A49CD499-FBBD-4FA2-A350-0C3467BA7DB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnomalyDetection.PandasNet", "Pandas\AnomalyDetection.PandasNet.csproj", "{3864B3D0-8644-4B98-A40F-2E1A2C067887}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnomalyDetection.IronPython", "IronPython\AnomalyDetection.IronPython.csproj", "{61465A1F-5186-49E2-A1CE-5BEA7962947D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python_pandas", "python_pandas\python_pandas.pyproj", "{401CDC96-C1D3-4D97-8BB3-2B53772CFC3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnomalyDetection.PythonNet", "AnomalyDetection.PythonNet\AnomalyDetection.PythonNet.csproj", "{200A45F2-25EB-4F5C-8E15-9498AE722891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnomalyDetection.Deedle", "AnomalyDetection.Deedle\AnomalyDetection.Deedle.csproj", "{016D23EB-0C12-4317-A7C6-F07EB257DC36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49CD499-FBBD-4FA2-A350-0C3467BA7DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49CD499-FBBD-4FA2-A350-0C3467BA7DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49CD499-FBBD-4FA2-A350-0C3467BA7DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49CD499-FBBD-4FA2-A350-0C3467BA7DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3864B3D0-8644-4B98-A40F-2E1A2C067887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3864B3D0-8644-4B98-A40F-2E1A2C067887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3864B3D0-8644-4B98-A40F-2E1A2C067887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3864B3D0-8644-4B98-A40F-2E1A2C067887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61465A1F-5186-49E2-A1CE-5BEA7962947D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61465A1F-5186-49E2-A1CE-5BEA7962947D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61465A1F-5186-49E2-A1CE-5BEA7962947D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61465A1F-5186-49E2-A1CE-5BEA7962947D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401CDC96-C1D3-4D97-8BB3-2B53772CFC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401CDC96-C1D3-4D97-8BB3-2B53772CFC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200A45F2-25EB-4F5C-8E15-9498AE722891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200A45F2-25EB-4F5C-8E15-9498AE722891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200A45F2-25EB-4F5C-8E15-9498AE722891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200A45F2-25EB-4F5C-8E15-9498AE722891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016D23EB-0C12-4317-A7C6-F07EB257DC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016D23EB-0C12-4317-A7C6-F07EB257DC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016D23EB-0C12-4317-A7C6-F07EB257DC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016D23EB-0C12-4317-A7C6-F07EB257DC36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F85D4022-FC85-4049-A0A0-5622F0F0A036}
+	EndGlobalSection
+EndGlobal
